@@ -1,0 +1,21 @@
+#container {
+  background-color: aquamarine;
+  display: flex;
+  height: 200px;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.child {
+  background-color: pink;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
